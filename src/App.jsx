@@ -23,7 +23,7 @@ const App = () => {
 
     // this will call api for first time
     useEffect(() => {
-        searchMovies('Legally blonde');
+        searchMovies('arrival');
     },[]);
 
     const handleEnterKey = (e) =>{
